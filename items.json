@@ -26,7 +26,7 @@
     "merch":[
         {
             "id":5,
-            "name":"T-shirt test",
+            "name":"T-shirt test-",
             "price":999,
             "imgName":"Shirt.png"
         },{

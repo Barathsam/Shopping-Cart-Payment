@@ -6,8 +6,6 @@ if (process.env.NODE_ENV !== 'production'){
 const stripeSecretKey =process.env.STRIPE_SECRET_KEY
 const stripePublicKey =process.env.STRIPE_PUBLIC_KEY
 
-console.log(stripePublicKey)
-
 const express = require('express')
 const app = express()
 const cors= require('cors')
@@ -62,4 +60,4 @@ app.post('/purchase', function (req, res) {
     })
 })
 
-app.listen(5000)
+app.listen(process.env.PORT)
